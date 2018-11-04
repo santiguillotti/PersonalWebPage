@@ -1,0 +1,10 @@
+var typed = $(".typed");
+
+
+$(function() {
+  typed.typed({
+    strings: ["Santiago Guillotti^1800", "a data fan geek^1500", "a enthusiastic of Digital Innovation^1500"]],
+    typeSpeed: 150,
+    loop: true,
+  });
+});
